@@ -1,0 +1,160 @@
+:root {
+	--white-main: #FFFFFF;
+	--grey-secondary: #C0C0C0;
+	--blue-button: #167BF7;
+	--background-color-aluraplus: #00030C;
+	--main-font: 'Inter';
+	--blue-button-effect: #3C92FA;
+	--yellow-link: #F0D200;
+}
+
+* {
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background-color: var(--background-color-aluraplus);
+	color: var(--white-main);
+	fonta-family: var(--main-font);
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.maincls {
+	background-image: url("../img/Background.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	align-items: center;
+	text-align: center;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	height: 100vh;
+}
+
+.container__button {
+	background-color: var(--blue-button);
+	border-radius: 5px;
+	padding: 1em;
+	color: var(--white-main);
+	display: block;
+	text-decoration: none;
+	margin-bottom: 1em;
+}
+
+
+.secondary_button {
+	background-color: transparent;
+	border: 2px solid var(--white-main);
+}
+
+.container__warning {
+	font-size: 12px;
+	color: var(--grey-secondary)
+}
+
+.container__title {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.container__image {
+	margin: 1em 0 2em 0;
+}
+
+.container__box {
+	margin: 0 6em;
+}
+
+.secondary__image {
+	margin: 1em 0 2em 0;
+}
+
+.secondary {
+	align-items: center;
+	margin: 0 10em;
+}
+
+.description__title {
+	font-weight: 700;
+	font-size: 48px;
+	color: var(--white-main);
+	margin-bottom: 0.1em;
+}
+
+.description__text {
+	color: var(--grey-secondary);
+}
+
+.secondary__button {
+	display: inline-block;
+}
+
+.container__description {
+	padding: 2em;
+}
+
+.dispositives__list {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	margin: 5em 0;
+}
+
+.dispositives {
+	text-align: center;
+}
+
+.dispositives__title {
+	font-size: 48px;
+	color: var(--white-main);
+}
+
+.list__item {
+	font-size: 32px;
+	color: var(--white-main);
+}
+
+.footercls {
+	text-align: center;
+	margin: 5em 3em;
+}
+
+.footercls__list {
+	display: flex;
+	justify-content: center;
+	list-style-tupe: none;
+	margin-top: 1em;
+}
+
+.footercls__text {
+	margin: 1em 0;
+	color: var(--grey-secondary);
+	font-size: 14px;
+}
+
+.list__link a {
+	text-decoration: none;
+	color: var(--white-main);
+	margin-left: 1em;
+}
+
+.list__link a:hover {
+	color: var(--yellow-link);
+}
+
+.list__link a:active {
+	color: purple;
+}
+
+.container__button:hover {
+	background-color: var(--blue-button);
+	color: var(--background-color-aluraplus);
+}
+
+.list__item:hover {
+	color: var(--yellow-link);
+}
