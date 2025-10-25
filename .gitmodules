@@ -1,0 +1,3 @@
+[submodule "original_repository"]
+	path = original_repository
+	url = git@github.com:alura-cursos/aluraplus.git
